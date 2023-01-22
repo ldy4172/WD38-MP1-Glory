@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="logo.png" width="100px" height="50px" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./reservation.html">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Delivery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Newsletter</a>
+              </li>
+            </ul>
+            <form class="d-flex align-items-center">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <section class = "banner">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class = "card-container">
+            <div class = "card-img">
+            </div>
+            <div class = "card-content">
+                <h3>Reservation</h3>
+                <form>
+                    <div class = "form-row">
+                        <select name = "days">
+                            <option value = "day-select">Select Day</option>
+                            <option value = "monday">Monday</option>
+                            <option value = "tuesday">Tuesday</option>
+                            <option value = "wednesday">Wednesday</option>
+                            <option value = "thursday">Thursday</option>
+                            <option value = "friday">Friday</option>
+                            <option value = "saturday">Saturday</option>
+                            <option value = "sunday">Sunday</option>
+                        </select>
+
+                        <select name = "hours">
+                            <option value = "hour-select">Select Hour</option>
+                            <option value = "9">9:00AM</option>
+                            <option value = "10">10:00AM</option>
+                            <option value = "11">11:00AM</option>
+                            <option value = "12">12:00PM</option>
+                            <option value = "1">1:00PM</option>
+                            <option value = "2">2:00PM</option>
+                            <option value = "3">3:00PM</option>
+                            <option value = "4">4:00PM</option>
+                            <option value = "5">5:00PM</option>
+                            <option value = "6">6:00PM</option>
+                            <option value = "7">7:00PM</option>
+                            <option value = "8">8:00PM</option>
+                            <option value = "9">9:00PM</option>
+                            <option value = "10">10:00PM</option>
+                        </select>
+                    </div>
+                    <div class = "form-row">
+                        <input type = "text" placeholder="Full Name">
+                        <input type = "text" placeholder="Phone Number">
+                    </div>
+                    <div class = "form-row">
+                        <input type = "number" placeholder="How Many Persons?" min = "1">
+                        <input type = "submit" value = "BOOK TABLE">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> 
+</section>
+<div class="search-text"> 
+    <div class="container">
+        <div class="row text-center">
+        <div class="form">
+            <h4>SIGN UP TO OUR NEWSLETTER</h4>
+            <form id="search-form" class="form-search form-horizontal d-flex justify-content-center align-items-center">
+                <input type="text" class="input-search" placeholder="Email Address">
+                <button type="submit" class="btn-search">SUBMIT</button>
+            </form>
+        </div>
+        </div>         
+    </div>     
+</div>
+ <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <a href="./index.html">
+                <img src="logo.png" width="100px" height="50px" alt="logo">
+              </a>
+            <div class="social-icons mt-4">
+                <nav>
+                    <a href="http://" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="http://" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="http://" target="_blank">
+                    <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="http://" target="_blank">
+                    <i class="bi bi-twitter"></i>
+                    </a>
+                </nav>
+            </div>
+            </div>
+        
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="menu p-0">
+                    <span>Menu</span>    
+                    <li>
+                    <a href="./index.html">Home</a>
+                    </li>
+                        
+                    <li>
+                    <a href="./about.html">About</a>
+                    </li>
+                        
+                    <li>
+                    <a href="./menu.html">Menu</a>
+                    </li>
+                        
+                    <li>
+                    <a href="./reservation.html">Reservation</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="address p-0">
+                <span>Contact</span>       
+                <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i> 
+                    <a href="tel:+234-567">Phone#: 234-567</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <a href="http://" target="_blank">Address: Lahug, Cebu City</a> 
+                  </li> 
+                  <li>
+                    <i class="fa fa-envelope" aria-hidden="true"></i> 
+                    <a href="mailto:pinoyclassiccorner@gmail.com">Email: pinoyclassiccorner@gmail.com</a>
+                  </li> 
+                </ul>
+            </div>
+        </div> 
+    </div>
+</footer>
+</body>
+</html>

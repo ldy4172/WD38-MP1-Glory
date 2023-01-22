@@ -1,0 +1,267 @@
+.nav-item a {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: gray;
+	/* margin-left: 80px; */
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+.navbar {
+	background-color: #ffffff;
+}
+.section-intro {
+	height: 820px;
+	background-image: url('https://wallpapercave.com/wp/wp1874196.jpg');
+}
+
+.link-to-book-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 90%;
+}
+
+.about-section {
+	align-items: center;
+	background-color: #f3f3f3c0;
+	padding: 50px 30px;
+}
+
+.link-to-book {
+	margin-top: 15px;
+	font-family:'Brush Script MT';
+	font-size: 2.0em;
+	color: gray;
+	background-color: white;
+	text-shadow:gray;
+	display: block;
+	border: 2px solid white;
+	padding: 5px 20px;
+}
+
+h3.link-to-book:hover {
+	background-color: #ffffff;
+	color: #95999e;
+	text-decoration: none;
+}
+
+.about-section p {
+	color: black;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	font-family:'Big Shoulders Text';
+	font-size: 20PX;
+}
+
+.about-section h4 {
+	color: rgb(211, 119, 134);
+	text-align: center;
+	line-height: 70px;
+	width: 60%;
+	margin: auto;
+	font-family: 'Big Shoulders Text';
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+.carousel-inner {
+	height: 600px;
+}
+
+.row-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column-form {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 30px 20px;
+}
+
+.btn.btn-primary {
+	font-family: 'Big Shoulders Text', cursive;
+	color: #ffffff;
+	background-color: #95999e;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	border: 0;
+}
+
+.btn.btn-primary:hover {
+	background-color: #747474;
+}
+.opening-time,
+.contact-address {
+	flex: 1;
+	margin: 30px 20px;
+	font-size: 1.2em;
+}
+
+.form-group p {
+	font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-address p span {
+	display: block;
+}
+
+@media (min-width:577px) and (max-width: 800px) {
+
+	.section-intro {
+		height: 500px;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 20px;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.row-flex {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.section-intro {
+		height: 300px;
+	}
+
+	.about-section {
+		padding: 30px;
+	}
+
+	.section-intro h1 {
+		font-size: 2em;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 15px;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.row-flex {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.row-flex h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.form-group p {
+		font-size: 15px;
+	}
+
+	.opening-time p span,
+	.contact-address p span {
+		font-size: 15px;
+		text-align: center;
+	}
+
+}
+ 
+section.banner .card {
+    width: 980px;
+    margin: auto;
+}
+.search-text {
+	/* margin-top: 50px; */
+	background-color:#ECE8DD;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+	
+.search-text .input-search {
+	height: 45px;
+	width: 40%;
+	padding-left: 20px;
+    color: #333;
+} 
+
+.search-text .btn-search {
+    background: #EB455F;
+    border: none;
+	color: gray;
+	height: 45px;
+    width: 80px;
+}
+
+.search-text h4 {
+    color:gray;
+    font-weight: 700;
+}
+
+footer {
+	background-color: #ECE8DD;
+}	       
+
+.logo {
+	font-family: 'Great Vibes';
+    color: #FFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.address span, 
+.menu span {
+   color: gray; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding: 10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.address li a, 
+.menu li a {
+    color: gray;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.address li, 
+.menu li {
+    margin: 20px 0px;
+    list-style: none;
+}
+
+.address li a:hover, 
+.menu li a:hover {
+    color: #da3e44;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.address .fa {
+    color: #da3e44;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.social-icons nav a {
+    text-decoration: none;
+    color: #eb455f;
+    font-size: 16px;
+    margin-right: 10px;
+}
